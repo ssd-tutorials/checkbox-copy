@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Copy content with checkbox</title>
+	<meta name="description" content="Copy content with checkbox">
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic">
+	<link rel="stylesheet" href="/css/core.css" type="text/css" media="screen" charset="utf-8">	
+</head>
+<body>
+
+
+<section id="wrapper">
+
+	<form method="post">
+	
+		<h2>Company Details</h2>
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="company_name">Company Name: *</label>
+			</div>
+			<div class="rowRight">
+				&nbsp;
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="company_name" 
+					id="company_name" 
+					class="field fieldCopy" 
+					data-field="first_name last_name"
+				/>
+			</div>
+			<div class="rowRight">
+				&nbsp;
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="company_street">Street: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="company_town">Town: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="company_street" 
+					id="company_street" 
+					class="field fieldCopy" 
+					data-field="street"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="company_town" 
+					id="company_town" 
+					class="field fieldCopy" 
+					data-field="town"
+				/>
+			</div>
+		</div>
+		
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="company_county">County: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="company_post_code">Post Code: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="company_county" 
+					id="company_county" 
+					class="field fieldCopy" 
+					data-field="county"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="company_post_code" 
+					id="company_post_code" 
+					class="field fieldCopy" 
+					data-field="post_code"
+				/>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="company_email">Email Address: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="company_telephone">Telephone Number: *</label>
+			</div>
+		</div>		
+		<div class="row mrb16">
+			<div class="rowLeft">
+				<input 
+					type="email" 
+					name="company_email" 
+					id="company_email" 
+					class="field fieldCopy" 
+					data-field="email"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="company_telephone" 
+					id="company_telephone" 
+					class="field fieldCopy" 
+					data-field="telephone"
+				/>
+			</div>
+		</div>
+		
+		
+		<h2>Personal Details</h2>
+		
+		<p>
+			<label for="addressSame">
+				<input 
+					type="checkbox" 
+					name="addressSame" 
+					id="addressSame" 
+					class="checkCopy mrr4" 
+					data-target="fieldCopy"
+				/>
+				Personal details are the same as company details
+			</label>
+		</p>
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="first_name">First Name: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="last_name">Last Name: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="first_name" 
+					id="first_name" 
+					class="field"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="last_name" 
+					id="last_name" 
+					class="field"
+				/>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="street">Street: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="town">Town: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="street" 
+					id="street" 
+					class="field"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="town" 
+					id="town" 
+					class="field"
+				/>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="county">County: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="post_code">Post Code: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="text" 
+					name="county" 
+					id="county" 
+					class="field"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="post_code" 
+					id="post_code" 
+					class="field"
+				/>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="rowLeft">
+				<label for="email">Email Address: *</label>
+			</div>
+			<div class="rowRight">
+				<label for="telephone">Telephone Number: *</label>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="rowLeft">
+				<input 
+					type="email" 
+					name="email" 
+					id="email" 
+					class="field"
+				/>
+			</div>
+			<div class="rowRight">
+				<input 
+					type="text" 
+					name="telephone" 
+					id="telephone" 
+					class="field"
+				/>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			
+			<input type="submit" class="button" value="Submit" />
+			
+		</div>
+	
+	</form>
+
+</section>
+
+	
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="/js/core.js"></script>
+</body>
+</html>
