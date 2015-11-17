@@ -1,2 +1,2 @@
-# checkbox-copy
-Exercise files for the course Copy field content with checkbox
+# Copy field content with checkbox
+Exercise files for the course **Copy field content with checkbox**
